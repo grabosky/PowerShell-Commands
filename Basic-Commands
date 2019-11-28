@@ -12,3 +12,9 @@ Get-Command *connection*
 [Gets list of commands with the string "connection"]
 
 --------
+
+Get-TimeZone
+
+[Shows local machine timezone]
+
+--------
