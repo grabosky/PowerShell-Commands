@@ -1,0 +1,11 @@
+Get-Command *
+
+[Gets list of all commands]
+
+--------
+
+Get-Command *connection*
+
+[Gets list of commands with the string "connection"]
+
+--------
