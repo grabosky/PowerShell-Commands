@@ -1,3 +1,6 @@
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ PowerShell Basic Commands ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+
 Get-Command *
 
 [Gets list of all commands]
