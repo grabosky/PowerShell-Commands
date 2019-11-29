@@ -13,8 +13,57 @@ Get-Command *connection*
 
 --------
 
+Get-Help Stop-Process
+
+[Shows description of "Stop-Process" command (like manpages in Linux)]
+
+-------
+
+Get-Help Stop-Process -Examples
+
+[Shows examples of "Stop-Process" command]
+
+--------
+
+Get-Help Stop-Process -Examples
+
+[Shows examples of "Stop-Process" command]
+
+--------
+
 Get-TimeZone
 
 [Shows local machine timezone]
 
 --------
+
+Get-Date
+
+[Shows systems date]
+
+--------
+
+Get-Date | Format-List
+
+[Shows system date but also shows it in a list of possible formats]
+
+--------
+
+Get-Random
+
+[Shows random number]
+
+--------
+
+Get-Random | Get-Member
+
+[Shows list of methods you can use with Get-Random object]
+
+--------
+
+Find-Module -Tag Telegram
+
+[Searches additional modules (here "Telegram" modules) to PowerShell, that allows for extending PS functionalities]
+
+--------
+
